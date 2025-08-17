@@ -19,7 +19,7 @@ Este proyecto explora la arquitectura de aplicaciones distribuidas, implementand
 
 3. **Ejecuta el servidor con Maven:**
 	```sh
-	mvn exec:java -Dexec.mainClass="edu.escuelaing.arep.app.HttpServer"
+	mvn exec:java
 	```
 	El servidor escuchará en el puerto `35000`.
 
@@ -50,7 +50,10 @@ Este proyecto explora la arquitectura de aplicaciones distribuidas, implementand
 	- `/ballena.jpg`
 
 - Servicio REST de ejemplo:
-	- [http://localhost:35000/app/hello?name=Juan](http://localhost:35000/app/hello?name=Juan)
+		
+    - [http://localhost:35000/app/hello?name=Juan](http://localhost:35000/app/hello?name=Juan)
+    
+    - Este servicio puede ser consumido desde la página principal (`index.html`). Al ingresar un nombre en el formulario de la página, se realiza una petición asíncrona al backend y el mensaje en formato JSON se muestra dinámicamente en la misma página.
 
 ## Arquitectura
 
