@@ -60,7 +60,7 @@ Este proyecto explora la arquitectura de aplicaciones distribuidas, implementand
 - **Frontend:** Aplicación web con HTML, CSS y JavaScript que consume los servicios REST de manera asíncrona.
 
 
-![Arquitectura](resources\images\arquitectura.png)
+![Arquitectura](./resources/images/arquitectura.png)
 
 
 ## Evaluación y Pruebas
